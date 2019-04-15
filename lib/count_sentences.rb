@@ -13,7 +13,12 @@ class String
 
 
   def question?
-
+    if self.scan(/[?]/).empty?
+      false
+    elsif
+      self.scan(/[?]/).length == 1
+    true
+    end
   end
 
   def exclamation?
