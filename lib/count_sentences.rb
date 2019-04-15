@@ -5,8 +5,9 @@ class String
   def sentence?
     if self.scan(/[.]/).empty?
       false
-    else
-      true
+    elsif
+      self.scan(/[.]/).length == 1
+    true
     end
   end
 
