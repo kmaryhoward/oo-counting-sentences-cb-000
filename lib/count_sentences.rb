@@ -33,5 +33,5 @@ class String
   def count_sentences
      self.scan(/([.?!])(?![.?!])/).length
   end
-end
+
 end
